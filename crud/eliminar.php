@@ -1,5 +1,5 @@
 <?php
-include './conexion.php';
+include '../conexion.php';
 
 // Verificar si se ha enviado el ID del usuario a eliminar por el método GET
 if (isset($_GET['id'])) {

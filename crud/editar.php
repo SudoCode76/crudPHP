@@ -1,5 +1,5 @@
 <?php
-include './conexion.php';
+include '../conexion.php';
 
 // Verificar si se ha enviado el formulario de edición
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
